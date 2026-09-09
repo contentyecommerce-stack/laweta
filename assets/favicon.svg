@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff7700"/>
+      <stop offset="100%" stop-color="#e04e00"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded App Icon Background -->
+  <rect width="512" height="512" rx="110" fill="url(#bgGrad)"/>
+  
+  <!-- Warning Strobe Light -->
+  <rect x="340" y="140" width="70" height="25" rx="8" fill="#ffd43b"/>
+  <rect x="360" y="135" width="30" height="10" rx="4" fill="#ffffff"/>
+  
+  <!-- Tow Truck Cabin -->
+  <polygon points="310,170 390,170 430,215 456,260 456,355 310,355" fill="#ffffff"/>
+  
+  <!-- Cabin Windshield / Window -->
+  <polygon points="330,190 385,190 416,225 430,252 330,252" fill="#0f172a"/>
+  
+  <!-- Headlight -->
+  <rect x="444" y="280" width="12" height="25" rx="4" fill="#ffe066"/>
+  
+  <!-- Flatbed Ramp -->
+  <rect x="45" y="270" width="267" height="85" rx="12" fill="#ffffff"/>
+  <rect x="55" y="285" width="245" height="13" rx="4" fill="#ff6b00"/>
+  
+  <!-- Towed Car on Bed -->
+  <polygon points="110,265 140,210 210,210 245,265" fill="#111827"/>
+  <rect x="80" y="250" width="195" height="25" rx="6" fill="#111827"/>
+  <polygon points="145,218 172,218 172,245 132,245" fill="#dbeafe"/>
+  <polygon points="180,218 210,218 228,245 180,245" fill="#dbeafe"/>
+  
+  <!-- Wheels -->
+  <!-- Rear Wheel -->
+  <circle cx="135" cy="365" r="50" fill="#18181b"/>
+  <circle cx="135" cy="365" r="28" fill="#e4e4e7"/>
+  <circle cx="135" cy="365" r="14" fill="#ff6b00"/>
+  
+  <!-- Front Wheel -->
+  <circle cx="385" cy="365" r="50" fill="#18181b"/>
+  <circle cx="385" cy="365" r="28" fill="#e4e4e7"/>
+  <circle cx="385" cy="365" r="14" fill="#ff6b00"/>
+</svg>

@@ -1,0 +1,202 @@
+{
+  "site": {
+    "name": "Laweta 24h Poznań | Pomoc drogowa 24/7",
+    "brand": "LAWETA24 POZNAŃ",
+    "domain": "laweta24poznan.pl",
+    "siteUrl": "https://laweta24poznan.pl",
+    "phone": "+48 692 167 081",
+    "phoneRaw": "+48692167081",
+    "email": "kontakt@laweta24poznan.pl",
+    "address": {
+      "street": "os. Piastowskie 85",
+      "city": "Poznań",
+      "postalCode": "61-161",
+      "region": "Wielkopolska",
+      "country": "Polska",
+      "lat": "52.3929",
+      "lng": "16.9463"
+    },
+    "hours": "24/7 - Całodobowo, 365 dni w roku",
+    "responseTime": "15 - 20 min",
+    "startingPrice": "150 zł",
+    "logo": "/assets/images/hero-laweta-poznan.webp",
+    "image": "/assets/images/hero-laweta-poznan.webp",
+    "metaTitle": "Laweta Poznań 24h – pomoc drogowa i tanie holowanie samochodów | Laweta24 Poznań",
+    "metaDescription": "Całodobowa laweta i pomoc drogowa w Poznaniu i okolicach (A2, S11, S5). Dojazd w 15-20 min! Holowanie od 150 zł, rozliczenie bezgotówkowe z OC sprawcy. Zadzwoń: 692 167 081."
+  },
+  "stats": [
+    { "value": "15-20 min", "label": "Średni czas dojazdu w Poznaniu" },
+    { "value": "24/7", "label": "Dyżur całodobowy w niedziele i święta" },
+    { "value": "5 000+", "label": "Pomyślnie obsłużonych kierowców" },
+    { "value": "0 zł", "label": "Holowanie z OC sprawcy zdarzenia" }
+  ],
+  "services": [
+    {
+      "id": "holowanie-osobowe",
+      "title": "Holowanie samochodów osobowych i SUV",
+      "badge": "Najczęściej wybierane",
+      "desc": "Błyskawiczny transport aut osobowych, hybrydowych, elektrycznych oraz SUV. Posiadamy hydrauliczne płyty najazdowe gwarantujące bezpieczny załadunek aut o niskim zawieszeniu.",
+      "price": "od 150 zł",
+      "icon": "car",
+      "features": ["Hydrauliczna platforma bez ryzyka uszkodzeń", "Mocowanie za koła 4 pasami atestowanymi", "Dojazd w 15 minut na terenie Poznania"]
+    },
+    {
+      "id": "holowanie-busy",
+      "title": "Holowanie busów i samochodów dostawczych",
+      "badge": "Duża ładowność",
+      "desc": "Wzmocnione autolawety przygotowane do transportu długich furgonów, maxi busów, plandek oraz pojazdów z ładunkiem do 3,5t DMC i więcej.",
+      "price": "od 250 zł",
+      "icon": "truck",
+      "features": ["Wciągarki o uciągu 8 ton", "Możliwość przewozu pasażerów w kabinie", "Obsługa tras tranzytowych A2 / S11 / S5"]
+    },
+    {
+      "id": "oc-sprawcy",
+      "title": "Bezpłatne holowanie z OC sprawcy",
+      "badge": "Koszt: 0 zł",
+      "desc": "Jeśli Twój pojazd został uszkodzony w kolizji nie z Twojej winy, pełny koszt holowania i parkowania pokrywa polisa OC sprawcy. Podstawiamy auto zastępcze tej samej klasy od ręki!",
+      "price": "0 zł (bezgotówkowo)",
+      "icon": "shield-check",
+      "features": ["Brak jakichkolwiek opłat własnych", "Samochód zastępczy na czas likwidacji szkody", "Pomoc w formalnościach z ubezpieczycielem"]
+    },
+    {
+      "id": "pomoc-mobilna",
+      "title": "Mobilna pomoc drogowa i drobne naprawy",
+      "badge": "Na miejscu w 15 min",
+      "desc": "Awaria akumulatora, przebita opona, brak paliwa? Usuwamy drobne usterki na miejscu zdarzenia bez konieczności holowania do warsztatu.",
+      "price": "od 100 zł",
+      "icon": "wrench",
+      "features": ["Awaryjny rozruch 12V/24V (profesjonalny booster)", "Wymiana koła lub naprawa kołkiem", "Dowóz paliwa (benzyna/diesel) na autostradę i w miasto"]
+    },
+    {
+      "id": "wyciaganie-row",
+      "title": "Wyciąganie z rowu, błota i zasp śnieżnych",
+      "badge": "Trudne warunki",
+      "desc": "Profesjonalny sprzęt ratownictwa drogowego: mocne wciągarki hydrauliczne, zblocza, poduszki wysokociśnieniowe oraz wózki transportowe pod zablokowane lub urwane koła.",
+      "price": "od 200 zł",
+      "icon": "anchor",
+      "features": ["Wydobycie auta bez dodatkowych uszkodzeń", "Wózki pod zablokowaną skrzynię biegów", "Działanie w każdych warunkach pogodowych"]
+    },
+    {
+      "id": "transport-maszyn",
+      "title": "Transport maszyn budowlanych i rolniczych",
+      "badge": "Specjalistyczny",
+      "desc": "Przewóz minikoparek, wózków widłowych, podnośników koszowych, zamiatarek, traktorków oraz quadów na terenie Wielkopolski i całego kraju.",
+      "price": "Wycena indyw.",
+      "icon": "hard-hat",
+      "features": ["Najazdy o niskim kącie natarcia", "Certyfikowane łańcuchy i pasy transportowe", "Faktura VAT 23% dla firm"]
+    },
+    {
+      "id": "autostrada-a2",
+      "title": "Dyżur na autostradzie A2 oraz drogach S11 i S5",
+      "badge": "Ekspresowy wyjazd",
+      "desc": "Stały dyżur w rejonie węzłów A2 (Komorniki, Poznań Zachód, Luboń, Krzesiny, Poznań Wschód) oraz dróg S11 i S5. Bezpieczne zabezpieczenie miejsca kolizji pachołkami i falą świetlną.",
+      "price": "od 200 zł",
+      "icon": "zap",
+      "features": ["Legalne holowanie z autostrady koncesyjnej", "Znakowanie świetlne zgodne z normami GDDKiA", "Dojazd w zaledwie kilkanaście minut"]
+    },
+    {
+      "id": "skup-aut",
+      "title": "Skup aut uszkodzonych i powypadkowych",
+      "badge": "Gotówka od ręki",
+      "desc": "Jeżeli naprawa samochodu po kolizji jest nieopłacalna, odkupimy Twój samochód za gotówkę od ręki na miejscu zdarzenia. Kompleksowe formalności i bezpłatny odbiór lawetą.",
+      "price": "Najlepsze ceny",
+      "icon": "banknote",
+      "features": ["Wycena na miejscu w 5 minut", "Płatność gotówką lub natychmiastowym przelewem", "Wypowiedzenie OC i dokumenty do wydziału komunikacji"]
+    }
+  ],
+  "pricing": [
+    { "service": "Transport w granicach Poznania", "price": "od 150 zł", "unit": "teren miasta Poznania" },
+    { "service": "Transport poza miastem", "price": "1,50 zł / km", "unit": "za każdy kilometr, w zależności od wagi auta. Do uzgodnienia telefonicznego." }
+  ],
+  "coverage": {
+    "poznanDistricts": [
+      "Centrum / Stare Miasto", "Wilda", "Grunwald", "Jeżyce", "Nowe Miasto",
+      "Rataje", "Piątkowo", "Winogrady", "Dębiec", "Starołęka",
+      "Ławica", "Ogrody", "Smochowice", "Podolany", "Naramowice",
+      "Górczyn", "Junikowo", "Szczepankowo", "Morasko", "Głuszyna"
+    ],
+    "highwayJunctions": [
+      "Węzeł Poznań Zachód (A2 / S11)",
+      "Węzeł Poznań Komorniki (A2 / DW311)",
+      "Węzeł Poznań Luboń (A2 / DW430)",
+      "Węzeł Poznań Krzesiny (A2 / S11)",
+      "Węzeł Poznań Wschód (A2 / S5)",
+      "Droga ekspresowa S11 (Kórnik - Poznań - Tarnowo Podgórne)",
+      "Droga ekspresowa S5 (Gniezno - Poznań - Stęszew)",
+      "Droga krajowa DK92 (Swarzędz - Poznań - Tarnowo Podgórne)"
+    ],
+    "nearbyTowns": [
+      "Swarzędz", "Luboń", "Komorniki", "Tarnowo Podgórne", "Suchy Las",
+      "Plewiska", "Przeźmierowo", "Rokietnica", "Kórnik", "Mosina",
+      "Kostrzyn Wlkp.", "Dopiewo", "Murowana Goślina", "Czerwonak",
+      "Pobiedziska", "Stęszew", "Buk", "Szamotuły", "Śrem"
+    ]
+  },
+  "advantages": [
+    {
+      "title": "Błyskawiczny dojazd 15-20 min",
+      "desc": "Nasze autolawety stacjonują strategicznie w kilku punktach aglomeracji poznańskiej (m.in. przy os. Piastowskim 85, blisko Ronda Rataje, węzłów A2 / Krzesiny oraz centrum), co gwarantuje natychmiastową reakcję."
+    },
+    {
+      "title": "Płatność kartą, BLIK lub gotówką",
+      "desc": "Każdy nasz kierowca posiada mobilny terminal płatniczy. Wystawiamy paragony fiskalne oraz faktury VAT 23% na miejscu zdarzenia."
+    },
+    {
+      "title": "Bezgotówkowo z OC sprawcy",
+      "desc": "Nie wykładasz ani grosza – rozliczamy się bezpośrednio z ubezpieczycielem sprawcy wypadku i podstawiamy auto zastępcze."
+    },
+    {
+      "title": "Nowoczesna i bezpieczna flota",
+      "desc": "Dysponujemy platformami z hydraulicznym opuszczaniem o niskim kącie wjazdu, wózkami transportowymi i potężnymi wciągarkami."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Jak szybko laweta dojedzie na miejsce zdarzenia w Poznaniu?",
+      "a": "Średni czas dojazdu na terenie Poznania oraz w pobliżu obwodnicy wynosi 15-25 minut od przyjęcia zgłoszenia telefonicznego. Dokładny czas podaje dyspozytor podczas rozmowy po ustaleniu Twojej lokalizacji."
+    },
+    {
+      "q": "Ile kosztuje holowanie samochodu w Poznaniu?",
+      "a": "Koszt holowania sprawnego tocznie auta osobowego na terenie Poznania zaczyna się od 150 zł. W przypadku tras poza miasto stawka wynosi od 2,50 zł za km. Przed wyjazdem lawety zawsze podajemy pełny, wiążący koszt usługi."
+    },
+    {
+      "q": "Czy holowanie z kolizji może być całkowicie bezpłatne?",
+      "a": "Tak! Jeśli jesteś poszkodowanym w kolizji lub wypadku, cały koszt holowania, parkowania oraz wynajmu auta zastępczego pokrywany jest w 100% z polisy OC sprawcy zdarzenia. Załatwiamy wszelkie formalności."
+    },
+    {
+      "q": "Czy obsługujecie autostradę A2 i drogi ekspresowe S11 / S5?",
+      "a": "Tak, posiadamy uprawnienia i specjalistyczny sprzęt ostrzegawczy wymagany na drogach szybkiego ruchu i autostradach. Dojeżdżamy na wszystkie węzły wokół Poznania: Poznań Zachód, Komorniki, Luboń, Krzesiny, Poznań Wschód."
+    },
+    {
+      "q": "Co zrobić, jeśli koło jest urwane lub skrzynia biegów zablokowana?",
+      "a": "Posiadamy specjalistyczne wózki transportowe montowane pod zablokowane lub uszkodzone koła. Dzięki nim możemy bezpiecznie wciągnąć na płytę nawet ciężko uszkodzone auto ze zblokowaną skrzynią automatyczną czy uszkodzonym zawieszeniem."
+    },
+    {
+      "q": "Jakie formy płatności akceptujecie?",
+      "a": "Akceptujemy płatności kartami płatniczymi (Visa, Mastercard), BLIK-iem, gotówką oraz przelewem (dla stałych klientów i firm). Każdy kierowca posiada terminal w pojeździe."
+    }
+  ],
+  "reviews": [
+    {
+      "author": "Marek Wiśniewski",
+      "rating": 5,
+      "date": "2 dni temu",
+      "text": "Rewelacyjna pomoc na węźle A2 Komorniki o 2 w nocy. Laweta przyjechała po 18 minutach od telefonu. Bardzo profesjonalny kierowca, sprawny załadunek mojego BMW i bezpieczny transport. Cena dokładnie taka, jak ustaliliśmy przez telefon. Polecam!",
+      "source": "Google Maps"
+    },
+    {
+      "author": "Katarzyna Dąbrowska",
+      "rating": 5,
+      "date": "tydzień temu",
+      "text": "Stłuczka na rondzie Rataje. Ekipa z Laweta24 Poznań nie tylko odholowała uszkodzone auto bezgotówkowo z OC sprawcy, ale od razu podstawili mi świetne auto zastępcze tej samej klasy. Wszystkie formalności załatwione na miejscu. Zero stresu!",
+      "source": "Google Maps"
+    },
+    {
+      "author": "Tomasz Kaczmarek",
+      "rating": 5,
+      "date": "2 tygodnie temu",
+      "text": "Padł akumulator pod galerią Posnania w mroźny dzień. Mobilny serwis przyjechał z profesjonalnym boosterem i auto odpaliło od pierwszego strzała. Szybko, tanio i z uśmiechem na twarzy. Najlepsza pomoc drogowa w Poznaniu.",
+      "source": "Google Maps"
+    }
+  ]
+}
