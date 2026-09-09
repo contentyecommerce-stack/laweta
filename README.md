@@ -16,11 +16,11 @@ Strona jest w 100% przygotowana pod bezproblemowy deployment na platformie **Ver
 
 ## 📞 Dane kontaktowe i parametry wdrożenia
 - **Telefon alarmowy**: `+48 692 167 081` (692 167 081)
-- **Baza operacyjna**: `os. Piastowskie 85, 61-161 Poznań`
+- **Adres rejestrowy / korespondencja**: `os. Piastowskie 85, 61-161 Poznań` (pomoc drogowa mobilna z dojazdem do klienta)
 - **Czas dojazdu**: `15–25 minut na terenie Poznania i obwodnicy S11/A2`
 - **Cennik**:
   - Transport w granicach Poznania: od 150 zł
-  - Transport poza miastem: 1,50 zł / km (w zależności od masy auta, do uzgodnienia telefonicznego)
+  - Transport poza miastem: od 1,50 zł / km (w zależności od masy auta, do uzgodnienia telefonicznego)
   - Holowanie z OC sprawcy: 0 zł
 
 ## 🎯 Gotowość pod Google Ads

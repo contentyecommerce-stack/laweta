@@ -1258,7 +1258,7 @@ function buildSite() {
         <span>Dyżur całodobowy 24/7 • Średni czas dojazdu w Poznaniu: <strong>15 minut</strong></span>
       </div>
       <div class="top-bar-right">
-        <span>Baza: ${site.address.street}, ${site.address.city}</span>
+        <span>Obszar: Poznań i okolice • Dojazd 15–20 min</span>
         <a href="tel:${site.phoneRaw}" class="top-bar-phone">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
           ${site.phone}
@@ -1331,7 +1331,7 @@ function buildSite() {
         Zadzwoń: ${site.phone}
       </a>
       <div style="font-size:12px;color:var(--text-subtle);margin-top:10px;text-align:center;">
-        Baza: ${site.address.street}, Poznań
+        Obszar: Poznań, A2, S11 i okolice
       </div>
     </div>
   </div>
@@ -1344,7 +1344,7 @@ function buildSite() {
 
     <div class="wrap hero-content">
       <div class="hero-trust-badge">
-        <span>Dyżur całodobowy 24/7 • Baza: ${site.address.street}</span>
+        <span>Dyżur całodobowy 24/7 • Dojazd 15–20 min</span>
       </div>
 
       <h1 class="hero-title">
@@ -1374,7 +1374,7 @@ function buildSite() {
         </div>
         <div class="key-point-item">
           <span class="key-point-icon">✓</span>
-          <span>Baza: ${site.address.street}</span>
+          <span>Poznań i okolice (A2 / S11)</span>
         </div>
         <div class="key-point-item">
           <span class="key-point-icon">✓</span>
@@ -1424,12 +1424,12 @@ function buildSite() {
             <span class="pricing-card-badge">Trasa i autostrada</span>
             <h3 class="pricing-card-title">Transport poza miastem</h3>
             <p class="pricing-card-desc">
-              1,50 zł za każdy kilometr, w zależności od wagi auta. Do uzgodnienia telefonicznego przed wyjazdem. Obsługa autostrady A2, dróg S11, S5 i tras krajowych.
+              Od 1,50 zł za każdy kilometr, w zależności od wagi auta. Do uzgodnienia telefonicznego przed wyjazdem. Obsługa autostrady A2, dróg S11, S5 i tras krajowych.
             </p>
           </div>
           <div class="pricing-card-bottom">
             <div>
-              <span class="price-number">1,50 zł</span>
+              <span class="price-number">od 1,50 zł</span>
               <span class="price-unit">/ km</span>
             </div>
             <a href="tel:${site.phoneRaw}" class="pricing-card-btn">
@@ -1500,7 +1500,7 @@ function buildSite() {
       <div class="section-header">
         <span class="section-tag">Lokalizacja i dojazd</span>
         <h2 class="section-title">Obszar działania: Poznań, A2, S11 i okolice</h2>
-        <p class="section-desc">Nasza baza znajduje się przy ${site.address.street} (Poznań Rataje). Dzięki dogodnej lokalizacji dojeżdżamy w kilkanaście minut w dowolny rejon miasta oraz na obwodnicę.</p>
+        <p class="section-desc">Autolawety dyżurują w kluczowych punktach aglomeracji poznańskiej. Dzięki temu dojeżdżamy w 15–20 minut w dowolny rejon Poznania, na autostradę A2 oraz drogi ekspresowe S11 i S5.</p>
       </div>
 
       <div class="coverage-grid">
@@ -1652,8 +1652,9 @@ function buildSite() {
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
               </div>
               <div class="contact-row-text">
-                <h4>Lokalizacja bazy:</h4>
+                <h4>Adres firmy / korespondencja:</h4>
                 <p>Laweta24 Poznań – ${site.address.street}, ${site.address.postalCode} ${site.address.city}</p>
+                <div style="font-size:12px;color:var(--text-subtle);margin-top:2px;">Pomoc drogowa realizowana mobilnie – dojeżdżamy do Ciebie</div>
               </div>
             </div>
 
@@ -1680,10 +1681,10 @@ function buildSite() {
               <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
               <span>Zadzwoń: ${site.phone}</span>
             </a>
-            <a href="https://maps.google.com/?q=${encodeURIComponent(site.address.street + ', ' + site.address.postalCode + ' ' + site.address.city)}" target="_blank" rel="noopener noreferrer" class="btn-contact-maps">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg>
-              <span>Nawiguj do bazy (${site.address.street})</span>
-            </a>
+            <div style="margin-top:14px; font-size:13.5px; color:var(--text-muted); display:flex; align-items:center; gap:8px; justify-content:center;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Dojazd bezpośrednio na miejsce awarii lub kolizji</span>
+            </div>
           </div>
           <div class="contact-perks-strip">
             <span>✓ Dojazd w 15–20 min</span>
