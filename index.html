@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10836961267"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-10836961267');
+  </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   <title>Laweta Poznań 24h – pomoc drogowa i tanie holowanie samochodów | Laweta24 Poznań</title>
@@ -2120,6 +2129,7 @@
         link.addEventListener('click', function() {
           if (typeof gtag === 'function') {
             gtag('event', 'conversion', {
+              'send_to': 'AW-10836961267',
               'event_category': 'Phone Call',
               'event_label': 'Call Click',
               'value': 1.0

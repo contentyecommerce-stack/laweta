@@ -82,6 +82,15 @@ function buildSite() {
   const html = `<!DOCTYPE html>
 <html lang="pl">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=${site.googleAdsId}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '${site.googleAdsId}');
+  </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   <title>${site.metaTitle}</title>
@@ -1822,6 +1831,7 @@ function buildSite() {
         link.addEventListener('click', function() {
           if (typeof gtag === 'function') {
             gtag('event', 'conversion', {
+              'send_to': '${site.googleAdsId}',
               'event_category': 'Phone Call',
               'event_label': 'Call Click',
               'value': 1.0
